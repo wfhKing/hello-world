@@ -1,0 +1,16 @@
+1.使用Math.random()生成随机数
+	Math.random()	获取0.0-1.0之间的随机小数
+	Math.random()*10 获取0.0-9.0之间的随机小数
+	1+Math.random()*10 获取0.0-10.0之间的随机小数
+	min+Math.random()*(max-min) 获取min到max之间的随机小数
+	(int)(min+Math.random()*(max-min)) 获取min到max之间的随机整数
+2.通过Random类来生成随机数
+	在生成随机数前都要先创建对象
+	Random ran=new Random()
+	ran.nextInt(10)	生成0-10之间的整数
+	1+ran.nextInt(10)生成1-10之间的整数
+	ran.nextInt(max)%(max-min+1)+min生成min-max之间的整数
+3.System.currentTimeMillis()
+	long l=System.currentTimeMillis();
+	l%(10)	生成0-9之间的整数
+	l%(max-min)+min 生成min-max之间的整数
