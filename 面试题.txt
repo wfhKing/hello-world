@@ -44,3 +44,5 @@ Runnable接口来执行，由于线程类本身就是调用的Runnable接口,所以可以继承java.lang.T
 
 
 
+
+
